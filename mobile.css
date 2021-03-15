@@ -1,0 +1,312 @@
+@media (max-width: 375px) {
+  .navbar {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-img img {
+    padding-right: 30px;
+    padding-top: 0px;
+  }
+
+  .nav-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+  }
+
+  .nav-list ul li {
+    padding: 3px;
+    list-style: none;
+  }
+
+  .nav-list ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 9px;
+  }
+
+  .btn {
+    color: #fff;
+    font-size: 1rem;
+    background: #4a154b;
+    padding: 4px 4px;
+    border-radius: 5px;
+  }
+
+  .btn-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    padding-left: 30px;
+  }
+
+  /* ########################## header ############################# */
+
+  .header {
+    background: url(https://a.slack-edge.com/59662/marketing/img/homepage/video/brand-campaign_hero-poster.jpg)
+      no-repeat center center/cover;
+    width: 100vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .h1 h1 {
+    font-size: 35px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    padding-right: 30px;
+  }
+
+  .h4 {
+    padding-right: 20px;
+  }
+
+  .header-button {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+
+  .btn1 {
+    color: #fff;
+    font-size: 1rem;
+    background: none;
+    background: #4a154b;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .btn2 {
+    color: #4a154b;
+    font-size: 1rem;
+    background: none;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  header p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  /* ################# Showcase-vedio ########### */
+
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .showcase-container h1 {
+    color: #000000;
+    font-size: 28.8px;
+    margin: 19.296px 0px 0px;
+    padding-left: 80px;
+  }
+
+  .showcase-container p {
+    font-size: 16px;
+    margin: 16px 0px;
+    padding-left: 90px;
+    align-items: center;
+    color: #000000;
+  }
+
+  .showcase-container video {
+    margin: 10px 0px 0px;
+    font-size: 19.2px;
+    width: 100%;
+  }
+
+  /* /* ############# showcase-his ##########  */
+
+  .showcase-his {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .his-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .his-container h1 {
+    color: #000000;
+    font-size: 23px;
+    margin: 23px 0px;
+  }
+
+  .his-container p {
+    color: #000000;
+    font-size: 19.2px;
+    margin: 19.2px 0px;
+  }
+
+  .showcase2 {
+    margin: 9.6px 0px;
+    font-weight: 800;
+  }
+
+  /* ############ showcase3 ######### */
+  .show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .show-video video {
+    width: 100%;
+  }
+
+  .showcase3 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+  }
+  .show-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    line-height: 50px;
+  }
+
+  /* ############## logo ####### */
+
+  .logo-img img {
+    width: 115px;
+    padding: 25px 4px;
+  }
+  .logo-icon img {
+    padding: 25px;
+  }
+
+  /* ############## read story ############## */
+
+  .read-content h1 {
+    font-size: 2rem;
+    padding: 30px 0px;
+  }
+
+  .read-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 16px;
+  }
+
+  .read-box p {
+    font-size: 15.2px;
+    margin: 0px;
+  }
+
+  /* ########## workspace ############# */
+
+  .workspace h1 {
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 50px 0px;
+  }
+  .btn4 {
+    color: #fff;
+    font-size: 1rem;
+    background: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    margin: 0px;
+  }
+
+  .btn3 {
+    color: #4a154b;
+    font-size: 1rem;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 5px;
+    margin: 0px;
+    margin-right: 20px;
+  }
+
+  /* ########### About ########## */
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0px;
+  }
+
+  .about img {
+    width: 25px;
+  }
+
+  .about-box h3 {
+    font-size: 0.8rem;
+    padding: 10px 0px;
+  }
+
+  .about-box li {
+    list-style: none;
+    padding: 0px 0px;
+  }
+
+  .about-box a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.7rem;
+  }
+
+  /* ########## footer ########### */
+  .footer {
+    background: rgb(228, 227, 227);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+
+  .footer li {
+    list-style: none;
+  }
+
+  .footer-contant ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-contant a {
+    text-decoration: none;
+    padding: 20px 10px;
+    color: #333;
+    font-size: 0.8rem;
+  }
+
+  .social ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social i {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 1rem;
+  }
+
+  .footer2 h6 {
+    background: #999;
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 10px 0px;
+  }
+}
