@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* ##################### Navbar #################### */
+.navbar {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav-img img {
+  width: 122.13px;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+
+.nav-list ul {
+  display: flex;
+}
+.nav-list ul li {
+  padding: 1rem;
+  list-style: none;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.btn {
+  color: #fff;
+  font-size: 1rem;
+  background: #4a154b;
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+/* ########################## header ############################# */
+
+.header {
+  background: url(https://a.slack-edge.com/59662/marketing/img/homepage/video/brand-campaign_hero-poster.jpg)
+    no-repeat center center/cover;
+  width: 100vw;
+  height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.h1 h1 {
+  font-size: 51.2px;
+  padding-bottom: 20px;
+}
+
+.h4 h4 {
+  font-size: 20.8px;
+  font-weight: 500;
+}
+
+.header-button {
+  display: flex;
+  padding-left: 15px;
+}
+
+.header-button li {
+  list-style: none;
+  padding: 15px;
+}
+
+.btn2 {
+  color: #4a154b;
+  font-size: 1rem;
+  background: none;
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+header p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* ################# Showcase-vedio ########### */
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.showcase-container h1 {
+  color: #000000;
+  font-size: 51.2px;
+  margin: 34.304px 0px 0px;
+}
+
+.showcase-container p {
+  font-size: 19.2px;
+  margin: 19.2px 0px;
+  color: #000000;
+}
+
+.showcase-container video {
+  margin: 64px 0px 0px;
+}
+
+/* /* ############# showcase-his ##########  */
+
+.showcase-his {
+  display: flex;
+  padding: 20px;
+}
+
+.his-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.his-container h1 {
+  color: #000000;
+  font-size: 23px;
+  margin: 23px 0px;
+}
+
+.his-container p {
+  color: #000000;
+  font-size: 19.2px;
+  margin: 19.2px 0px;
+}
+
+.showcase2 {
+  margin: 9.6px 0px;
+  font-weight: 800;
+  width: auto;
+}
+
+/* ############ showcase3 ######### */
+
+.showcase3 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px;
+}
+.show {
+  display: flex;
+  flex-direction: row;
+}
+
+.show-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.show-content h1 {
+  font-size: 3rem;
+}
+
+.show-content p {
+  font-size: 1.5rem;
+}
+
+.show-content a {
+  font-size: 1.2rem;
+}
+
+/* ############## logo ####### */
+
+.logo {
+  background: rgb(233, 230, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.logo-content h1 {
+  font-size: 3rem;
+  padding: 20px 0px;
+}
+
+.logo-content p {
+  font-size: 1.3rem;
+  padding: 20px 0px;
+}
+
+.logo-content a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.logo-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo-img img {
+  width: 300px;
+  padding: 60px 90px;
+}
+
+.logo-icon img {
+  padding: 50px 100px;
+}
+
+/* ############## read story ############## */
+
+.read-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.read-content h1 {
+  font-size: 3.5rem;
+  padding: 30px 0px;
+}
+
+.read-img {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 0px 16px;
+}
+
+.read-box:hover {
+  box-shadow: 20px 20px 50px 20px grey;
+  transition: 0.7s;
+  border-radius: 3%;
+  background: rgb(248, 248, 248);
+}
+.read-box img {
+  width: 300px;
+  padding-top: 24px;
+}
+
+.read-box p {
+  font-size: 19.2px;
+  margin: 19.2px 19.2px 0px 52.8px;
+}
+
+.read-box h1 {
+  font-size: 2rem;
+  padding: 20px 0px;
+}
+/* ########## workspace ############# */
+.workspace {
+  background: #4a154b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+
+.workspace h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  padding: 50px 0px;
+}
+
+.workspace-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.workspace-btn li {
+  list-style: none;
+}
+
+.btn3 {
+  color: #4a154b;
+  font-size: 1rem;
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 5px;
+  margin: 0px 30px;
+}
+
+.btn4 {
+  color: #fff;
+  font-size: 1rem;
+  background: none;
+  padding: 12px 16px;
+  border-radius: 5px;
+  margin: 0px 30px;
+}
+
+/* ########### About ########## */
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 60px 0px;
+}
+
+.about-box h3 {
+  font-size: 1.3rem;
+  padding: 10px 0px;
+}
+
+.about-box li {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+.about-box a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.3rem;
+}
+/* ########## footer ########### */
+.footer {
+  background: rgb(228, 227, 227);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer-contant ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-contant a {
+  text-decoration: none;
+  padding: 20px 20px;
+  color: #333;
+}
+
+.social ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.social i {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.footer2 h6 {
+  background: #999;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 0px;
+}
