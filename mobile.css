@@ -1,46 +1,24 @@
 @media (max-width: 375px) {
-  .navbar {
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
+  body {
+    font-family: "Roboto", sans-serif;
   }
-  .nav-img img {
-    padding-right: 30px;
-    padding-top: 0px;
-  }
-
-  .nav-list ul {
-    display: flex;
+  .navbar ul {
     flex-wrap: wrap;
-    width: 250px;
   }
 
-  .nav-list ul li {
-    padding: 3px;
-    list-style: none;
-  }
-
-  .nav-list ul li a {
+  .navbar ul li a {
     text-decoration: none;
-    color: #333;
     font-size: 9px;
+    padding: 0.3rem;
+    color: #333;
   }
 
-  .btn {
-    color: #fff;
-    font-size: 1rem;
-    background: #4a154b;
-    padding: 4px 4px;
-    border-radius: 5px;
+  .navbar img {
+    height: 50px;
   }
-
-  .btn-container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0px;
-    padding-left: 30px;
+  .navbar img {
+    margin-left: -45px;
+    margin-top: -10px;
   }
 
   /* ########################## header ############################# */
@@ -98,19 +76,21 @@
 
   /* ################# Showcase-vedio ########### */
 
-  .showcase-container {
+  .showcase-his {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding-top: 30px;
-    width: 100%;
+    text-align: center;
   }
 
   .showcase-container h1 {
     color: #000000;
     font-size: 28.8px;
     margin: 19.296px 0px 0px;
+  }
+
+  .showcase-his > div {
+    width: 100%;
   }
 
   .showcase-container p {
@@ -158,61 +138,104 @@
   }
 
   /* ############ showcase3 ######### */
-  .show {
-    display: flex;
-    flex-direction: column;
-  }
 
   .show-video video {
-    width: 100%;
+    width: 375px;
   }
 
   .showcase3 {
     display: flex;
     flex-direction: column;
-    margin: 30px 0px;
   }
+
+  .show {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+
   .show-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
+    padding: 20px;
     text-align: center;
     line-height: 50px;
+    line-height: 30px;
+  }
+
+  .show-content h1 {
+    font-size: 28.8px;
+    margin: 19.296px 0px;
+  }
+
+  .show-content p {
+    font-size: 19.2px;
+    margin: 16px 0px;
+    width: fit-content;
+    height: fit-content;
   }
 
   /* ############## logo ####### */
 
-  .logo-img img {
-    width: 115px;
-    padding: 25px 4px;
+  .read-content h1 {
+    font-size: 28.8px;
+    margin: 34.304px 0px;
   }
+
+  .logo-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-img img {
+    width: 300px;
+    padding: 5px;
+  }
+
   .logo-icon img {
-    padding: 25px;
+    padding: 50px 10px;
+  }
+
+  .logo-content p {
+    font-size: 16px;
+    padding: 20px 0px;
+  }
+
+  .logo-content h1 {
+    font-size: 28.2px;
+    padding: 0px 0px;
   }
 
   /* ############## read story ############## */
 
-  .read-content h1 {
-    font-size: 2rem;
-    padding: 30px 0px;
+  .read-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px;
+  }
+
+  .read-box {
+    width: 375px;
   }
 
   .read-img {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 0px 16px;
-  }
-
-  .read-box p {
-    font-size: 15.2px;
-    margin: 0px;
   }
 
   /* ########## workspace ############# */
 
+  .workspace {
+    background: #4a154b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+  }
   .workspace h1 {
     font-size: 1.8rem;
     color: #fff;
@@ -243,7 +266,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 0px;
+    margin: 0px;
   }
 
   .about img {
@@ -252,7 +275,6 @@
 
   .about-box h3 {
     font-size: 0.8rem;
-    padding: 10px 0px;
   }
 
   .about-box li {
@@ -266,13 +288,17 @@
     font-size: 0.7rem;
   }
 
+  .about ul {
+    margin-left: -30px;
+  }
+
   /* ########## footer ########### */
   .footer {
     background: rgb(228, 227, 227);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 0px 0px;
   }
 
   .footer li {
@@ -286,9 +312,13 @@
 
   .footer-contant a {
     text-decoration: none;
-    padding: 20px 10px;
+    padding: 4px;
     color: #333;
-    font-size: 0.8rem;
+    font-size: 13px;
+  }
+
+  .social {
+    margin: 10px 0px;
   }
 
   .social ul {
@@ -298,13 +328,13 @@
 
   .social i {
     text-decoration: none;
-    padding: 10px 10px;
-    font-size: 1rem;
+    padding: 4.8px;
+    font-size: 11.3px;
   }
 
   .footer2 h6 {
     background: #999;
-    font-size: 0.6rem;
+    font-size: 8.343px;
     text-align: center;
     padding: 10px 0px;
   }
