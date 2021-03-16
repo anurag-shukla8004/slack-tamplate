@@ -5,43 +5,61 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
 }
 /* ##################### Navbar #################### */
-.navbar {
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  width: 100vw;
-}
 
-.nav-img img {
-  width: 122.13px;
-  padding-right: 150px;
-  padding-top: 20px;
-}
-
-.nav-list ul {
+.navbar ul {
   display: flex;
-}
-.nav-list ul li {
-  padding: 1rem;
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 19px;
+  box-shadow: 0 0px 0px rgb(0 0 0 / 25%), 0 1px 5px rgb(0 0 0 / 22%);
 }
 
-.nav-list ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.3rem;
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.navbar {
+  text-align: center;
+  /* height: 50px; */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #fff;
 }
 
 .btn {
-  color: #fff;
-  font-size: 1rem;
   background: #4a154b;
-  padding: 12px 16px;
+  color: #fff;
+  padding: 0.75rem 1rem;
   border-radius: 5px;
+  font-size: 1rem;
 }
+.navbar img {
+  height: 50px;
+  margin-left: 5rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #333;
+  font-size: 19.2px;
+}
+
+.navbar ul li:last-child {
+  margin-top: -2px;
+}
+
 /* ########################## header ############################# */
 
 .header {
@@ -87,6 +105,7 @@ header p {
   font-size: 15px;
   font-weight: 100;
   padding-left: 20px;
+  margin: 10px 0px;
 }
 
 /* ################# Showcase-vedio ########### */
@@ -119,14 +138,17 @@ header p {
 
 .showcase-his {
   display: flex;
-  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.showcase-his > div {
+  width: 25%;
 }
 
 .his-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 30px;
+  display: block;
 }
 
 .his-container h1 {
@@ -136,8 +158,10 @@ header p {
 }
 
 .his-container p {
+  display: block;
   color: #000000;
   font-size: 19.2px;
+  font-weight: 400;
   margin: 19.2px 0px;
 }
 
@@ -157,23 +181,28 @@ header p {
 .show {
   display: flex;
   flex-direction: row;
+  margin: 96px;
 }
 
 .show-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  text-align: center;
-  line-height: 50px;
+  display: block;
+}
+
+.show div:first-child,
+.show div:last-child {
+  width: 80%;
 }
 
 .show-content h1 {
-  font-size: 3rem;
+  font-size: 51.2px;
+  margin: 34.304px 0px;
 }
 
 .show-content p {
-  font-size: 1.5rem;
+  font-size: 19.2px;
+  margin: 19.2px 0px;
+  width: 480px;
+  height: 46px;
 }
 
 .show-content a {
@@ -233,36 +262,37 @@ header p {
 }
 
 .read-content h1 {
-  font-size: 3.5rem;
-  padding: 30px 0px;
+  font-size: 51.2px;
+  margin: 34.304px 0px;
 }
 
 .read-img {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  padding: 0px 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding: 0px;
 }
 
 .read-box:hover {
-  box-shadow: 20px 20px 50px 20px grey;
-  transition: 0.7s;
-  border-radius: 3%;
-  background: rgb(248, 248, 248);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.5s;
 }
 .read-box img {
   width: 300px;
+  height: 224px;
   padding-top: 24px;
 }
 
 .read-box p {
   font-size: 19.2px;
-  margin: 19.2px 19.2px 0px 52.8px;
+  margin: 19.2px 52.8px;
+  width: 276.172px;
+  height: 69px;
 }
 
 .read-box h1 {
-  font-size: 2rem;
-  padding: 20px 0px;
+  font-size: 22.464px;
+  margin: 22.464px;
 }
 /* ########## workspace ############# */
 .workspace {
@@ -313,23 +343,23 @@ header p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 60px 0px;
+  margin: 20px 0px;
 }
 
 .about-box h3 {
-  font-size: 1.3rem;
-  padding: 10px 0px;
+  font-size: 22.464px;
+  margin-bottom: 10px;
 }
 
 .about-box li {
   list-style: none;
-  padding: 5px 0px;
+  padding: 0px 0px;
 }
 
 .about-box a {
   text-decoration: none;
   color: #333;
-  font-size: 1.3rem;
+  font-size: 19.2px;
 }
 /* ########## footer ########### */
 .footer {
@@ -337,7 +367,6 @@ header p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 0px;
 }
 
 .footer li {
@@ -345,29 +374,35 @@ header p {
 }
 
 .footer-contant ul {
+  margin: 16px 0px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .footer-contant a {
+  font-size: 16px;
   text-decoration: none;
-  padding: 20px 20px;
+  padding: 0px 32px;
   color: #333;
 }
 
 .social ul {
+  font-size: 16px;
+  margin: 16px 0px;
+  padding: 0px 0px 0px 32px;
   display: flex;
   flex-direction: row;
 }
 
 .social i {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 
 .footer2 h6 {
   background: #999;
-  font-size: 1rem;
+  font-size: 12.864px;
+  font-weight: 600;
   text-align: center;
   padding: 10px 0px;
 }
